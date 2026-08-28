@@ -9,4 +9,4 @@ cash6 = 0 // 20
 cash7 = 13 // 10
 cash8 = 3 // 1
 
-print("the money will be placed in the bank is according its places,\n",cash1,")
+print("the money will be placed in the bank is according its places,\n ",cash1," \n ",cash2," \n ",cash3,"  \n ",cash4," \n ",cash5," \n ",cash6," \n ",cash7," \n ",cash8, "\n will repalced")
