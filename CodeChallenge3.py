@@ -1,3 +1,4 @@
+print("===========WELCOME TO SHIPPING EXPRESS=========")
 Sender_Name = input("    ENTER NAME.....>>")
 Type_of_Package = input("    TYPE OF PACKAGE.....>>")
 Is_Fragile = input("    FRAGILE...TRUE/FALSE...>>") == "TRUE"
@@ -21,6 +22,14 @@ elif Package_Weight > 30 or Distance_Kilometers > 1000:
     Total_Cost = base_cost + 30
 
 else:
-    Total_Cost = base_cost
+   Total_Cost = base_cost
 
+print("===========RECIEPT==========")
+print("Sender_Name: ", Sender_Name)
+print("Type_of_Package: ", Type_of_Package)
+print("Is_Fragile: ",  Is_Fragile )
+print("Package_Weight: ",  Package_Weight )
+print("Is_Express: ", Is_Express)
+print("Is_International: ", Is_International)
 print("Total cost is: PHP", Total_Cost)
+print("==========THANK YOU FOR TRUSTING SHIPPING EXPRES==========")
